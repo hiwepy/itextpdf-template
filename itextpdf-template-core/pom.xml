@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>itextpdf-template-core</artifactId>
 	
-	<description>Building doc documents based on doc/docx file using itextpdf</description>
+	<description>Building pdf documents using itextpdf</description>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<packaging>jar</packaging>
 	
