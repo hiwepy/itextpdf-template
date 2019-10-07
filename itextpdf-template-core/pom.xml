@@ -32,36 +32,30 @@
 		
 		<!-- ###################### itextpdf ###################### -->
 		
-		<!-- itextpdf Core -->
+		<!-- https://mvnrepository.com/artifact/com.itextpdf/kernel -->
 		<dependency>
-		    <groupId>org.itextpdf</groupId>
-		    <artifactId>itextpdf</artifactId>
+		    <groupId>com.itextpdf</groupId>
+		    <artifactId>kernel</artifactId>
 		</dependency>
-		<!-- itextpdf MOXy -->
+		<!-- https://mvnrepository.com/artifact/com.itextpdf/layout -->
 		<dependency>
-		    <groupId>org.itextpdf</groupId>
-		    <artifactId>itextpdf-MOXy-JAXBContext</artifactId>
+		    <groupId>com.itextpdf</groupId>
+		    <artifactId>layout</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.itextpdf/forms -->
 		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>org.eclipse.persistence.antlr</artifactId>
+		    <groupId>com.itextpdf</groupId>
+		    <artifactId>forms</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.itextpdf/io -->
 		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>org.eclipse.persistence.asm</artifactId>
+		    <groupId>com.itextpdf</groupId>
+		    <artifactId>io</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.itextpdf/html2pdf -->
 		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>org.eclipse.persistence.core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>org.eclipse.persistence.moxy</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>eclipselink</artifactId>
-			<scope>test</scope>
+		    <groupId>com.itextpdf</groupId>
+		    <artifactId>html2pdf</artifactId>
 		</dependency>
 
 	</dependencies>
