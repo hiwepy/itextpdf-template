@@ -20,25 +20,29 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.velocity</groupId>
-			<artifactId>velocity</artifactId>
+			<artifactId>velocity-engine-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity-engine-scripting</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.velocity</groupId>
 			<artifactId>velocity-tools</artifactId>
 			<exclusions>
-		    	<exclusion>
-		    		<artifactId>struts-core</artifactId>
-		    		<groupId>org.apache.struts</groupId>
-		    	</exclusion>
-		    	<exclusion>
-		    		<artifactId>struts-taglib</artifactId>
-		    		<groupId>org.apache.struts</groupId>
-		    	</exclusion>
-		    	<exclusion>
-		    		<artifactId>struts-tiles</artifactId>
-		    		<groupId>org.apache.struts</groupId>
-		    	</exclusion>
-		    </exclusions>
+				<exclusion>
+					<artifactId>struts-core</artifactId>
+					<groupId>org.apache.struts</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>struts-taglib</artifactId>
+					<groupId>org.apache.struts</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>struts-tiles</artifactId>
+					<groupId>org.apache.struts</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		
 	</dependencies>

@@ -27,6 +27,13 @@
 			<version>${project.version}</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.cssparser/cssparser -->
+		<dependency>
+		    <groupId>net.sourceforge.cssparser</groupId>
+		    <artifactId>cssparser</artifactId>
+		    <version>0.9.27</version>
+		</dependency>
+		
 		<!-- ###################### HTML、CSS 解析工具包###################### -->
 		
 		<dependency>
@@ -70,15 +77,15 @@
 		    <artifactId>html2pdf</artifactId>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/itext-licensekey -->
-		<dependency>
+		<!-- <dependency>
 		    <groupId>com.itextpdf</groupId>
 		    <artifactId>itext-licensekey</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/itext-licensekey-volume -->
-		<dependency>
+		<!-- <dependency>
 		    <groupId>com.itextpdf</groupId>
 		    <artifactId>itext-licensekey-volume</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/sign -->
 		<dependency>
 		    <groupId>com.itextpdf</groupId>
@@ -95,30 +102,30 @@
 		    <artifactId>svg</artifactId>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/itext-rups -->
-		<dependency>
+		<!-- <dependency>
 		    <groupId>com.itextpdf</groupId>
 		    <artifactId>itext-rups</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/typography -->
-		<dependency>
+		<!-- <dependency>
 		    <groupId>com.itextpdf</groupId>
 		    <artifactId>typography</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/cleanup -->
 		<dependency>
 		    <groupId>com.itextpdf</groupId>
 		    <artifactId>cleanup</artifactId>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/xfa-itext-pdfa -->
-		<dependency>
+		<!-- <dependency>
 		    <groupId>com.itextpdf</groupId>
 		    <artifactId>xfa-itext-pdfa</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/pdfxfa -->
-		<dependency>
+		<!-- <dependency>
 		    <groupId>com.itextpdf</groupId>
 		    <artifactId>pdfxfa</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.itextpdf/hyph -->
 		<dependency>
 		    <groupId>com.itextpdf</groupId>
@@ -136,6 +143,17 @@
 		    <artifactId>pdftest</artifactId>
 		    <scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.itextpdf.tool/xmlworker -->
+		<dependency>
+		    <groupId>com.itextpdf.tool</groupId>
+		    <artifactId>xmlworker</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.itextpdf.tool/xfa-xmlworker -->
+		<!-- <dependency>
+		    <groupId>com.itextpdf.tool</groupId>
+		    <artifactId>xfa-xmlworker</artifactId>
+		</dependency> -->
+				
 
 	</dependencies>
 	
