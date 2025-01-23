@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.context;
+package com.itextpdf.template.core.context;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -22,8 +22,8 @@ import com.jeefw.fastkit.configuration.ConfigUtils;
 import com.jeefw.fastkit.configuration.config.AbstractContext;
 import com.jeefw.fastkit.configuration.config.Config;
 import com.jeefw.fastkit.lang3.BooleanUtils;
-import com.jeefw.fastpdf.core.context.constants.ConfigConstants;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.context.constants.ConfigConstants;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 /**
  * 
  * @description:Logx 上下文 

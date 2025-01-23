@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.context.constants;
+package com.itextpdf.template.core.context.constants;
 
 public class ConfigConstants {
 	

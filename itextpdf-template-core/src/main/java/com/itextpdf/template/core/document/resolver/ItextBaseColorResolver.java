@@ -1,15 +1,15 @@
-package com.jeefw.fastpdf.core.document.resolver;
+package com.itextpdf.template.core.document.resolver;
 
 import java.util.Map;
 
 import com.itextpdf.text.BaseColor;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 import com.jeefw.fastxml.core.utils.XMLColorUtils;
 import com.jeefw.fastxml.jdom.xhtml.ColorResolver;
 
 /**
  * 
- * @package com.jeefw.fastpdf.core.document.resolver
+ * @package com.itextpdf.template.core.document.resolver
  * @className: ItextBaseColorResolver
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

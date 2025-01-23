@@ -1,13 +1,13 @@
-package com.jeefw.fastpdf.core.document.helper;
+package com.itextpdf.template.core.document.helper;
 
 import java.util.Map;
 
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
-import com.jeefw.fastpdf.core.utils.DimensionUtils;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.utils.DimensionUtils;
 
 
  /**
- * @package com.jeefw.fastpdf.core.document.helper
+ * @package com.itextpdf.template.core.document.helper
  * @className: DimensionHelper
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

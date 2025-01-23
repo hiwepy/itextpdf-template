@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.helper;
+package com.itextpdf.template.core.document.helper;
 
 import java.util.Iterator;
 import java.util.List;
@@ -10,9 +10,9 @@ import com.itextpdf.text.Font;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.draw.LineSeparator;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
-import com.jeefw.fastpdf.core.document.resolver.ItextFontResolver;
-import com.jeefw.fastpdf.core.document.style.PDFStyleTransformer;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.resolver.ItextFontResolver;
+import com.itextpdf.template.core.document.style.PDFStyleTransformer;
 import com.jeefw.fastxml.jdom.xhtml.css.ElementStyleRender;
 public class PDFCellHelper{
 

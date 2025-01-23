@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.cache;
+package com.itextpdf.template.core.cache;
 
 
 import java.util.concurrent.ConcurrentHashMap;
@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 
 /**
  * 

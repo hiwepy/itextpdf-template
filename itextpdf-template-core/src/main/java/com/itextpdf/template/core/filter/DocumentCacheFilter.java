@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.filter;
+package com.itextpdf.template.core.filter;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -16,8 +16,8 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.jeefw.fastpdf.core.context.ItextContext;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.context.ItextContext;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 
 public class DocumentCacheFilter implements Filter {
 

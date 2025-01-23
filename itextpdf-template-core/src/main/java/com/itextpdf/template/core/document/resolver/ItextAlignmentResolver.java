@@ -1,15 +1,15 @@
-package com.jeefw.fastpdf.core.document.resolver;
+package com.itextpdf.template.core.document.resolver;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import com.itextpdf.text.Element;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 import com.jeefw.fastxml.jdom.xhtml.AlignmentResolver;
 
 /**
  * 
- * @package com.jeefw.fastpdf.core.document.resolver
+ * @package com.itextpdf.template.core.document.resolver
  * @className: ItextAlignmentResolver
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

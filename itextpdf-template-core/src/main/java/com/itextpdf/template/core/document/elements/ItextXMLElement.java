@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.elements;
+package com.itextpdf.template.core.document.elements;
 
 import java.awt.Color;
 
@@ -6,9 +6,9 @@ import com.itextpdf.text.Font;
 import com.itextpdf.text.FontFactory;
 import com.itextpdf.text.Phrase;
 import com.itextpdf.text.pdf.BaseFont;
-import com.jeefw.fastpdf.core.document.resolver.ItextAlignmentResolver;
-import com.jeefw.fastpdf.core.document.resolver.ItextColorResolver;
-import com.jeefw.fastpdf.core.document.resolver.ItextFontResolver;
+import com.itextpdf.template.core.document.resolver.ItextAlignmentResolver;
+import com.itextpdf.template.core.document.resolver.ItextColorResolver;
+import com.itextpdf.template.core.document.resolver.ItextFontResolver;
 @SuppressWarnings({"serial"})
 public abstract class ItextXMLElement extends XMLCSSElement{
 	

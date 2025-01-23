@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.helper;
+package com.itextpdf.template.core.document.helper;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,13 +6,13 @@ import java.util.Map;
 import com.itextpdf.text.PageSize;
 import com.itextpdf.text.Rectangle;
 import com.jeefw.fastkit.lang3.BlankUtils;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
-import com.jeefw.fastpdf.core.document.style.PDFStyleTransformer;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.style.PDFStyleTransformer;
 import com.jeefw.fastxml.jdom.xhtml.css.ElementStyleRender;
 
 
  /**
- * @package com.jeefw.fastpdf.core.document.helper
+ * @package com.itextpdf.template.core.document.helper
  * @className: RectangleHelper
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

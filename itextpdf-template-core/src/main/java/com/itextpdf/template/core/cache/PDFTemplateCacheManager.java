@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.cache;
+package com.itextpdf.template.core.cache;
 
 
 import java.util.HashMap;
@@ -9,26 +9,25 @@ import java.util.concurrent.ConcurrentMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.jeefw.fastkit.lang3.StringUtils;
 
 /**
- * 
+ *
  * *******************************************************************
  * @className	： PDFTemplateCacheManager
  * @description	： TODO(描述这个类的作用)
  * @author 		： <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
  * @date		： Oct 22, 2016 8:11:58 PM
- * @version 	V1.0 
+ * @version 	V1.0
  * *******************************************************************
  */
 public class PDFTemplateCacheManager {
-	
+
 	protected static Logger LOG = LoggerFactory.getLogger(PDFTemplateCacheManager.class);
 	/*protected static POIFontFactory fontFactory = POIFontFactory.getInstance();
 	private volatile static PDFTemplateCacheManager singleton;
  	protected static ConcurrentMap<Workbook, Map<String,POICellStyleKey>> COMPLIED_FONTKEY = new ConcurrentHashMap<Workbook, Map<String,POICellStyleKey>>();
  	protected static ConcurrentMap<Workbook, Map<POICellStyleKey,CellStyle>> COMPLIED_CELLSTYLE = new ConcurrentHashMap<Workbook, Map<POICellStyleKey,CellStyle>>();
-	
+
 	public static PDFTemplateCacheManager getInstance() {
 		if (singleton == null) {
 			synchronized (PDFTemplateCacheManager.class) {
@@ -39,29 +38,29 @@ public class PDFTemplateCacheManager {
 		}
 		return singleton;
 	}
-	
+
 	private PDFTemplateCacheManager(){
-		
+
 	}
-	
+
 	public POICellStyleKey getCellStyleKey(Workbook wb,Font font) {
-		return getCellStyleKey(wb, font.getFontName(), font.getBoldweight(), font.getColor(), 
-				font.getFontHeightInPoints() , font.getItalic(), font.getStrikeout(), 
+		return getCellStyleKey(wb, font.getFontName(), font.getBoldweight(), font.getColor(),
+				font.getFontHeightInPoints() , font.getItalic(), font.getStrikeout(),
 				font.getTypeOffset(), font.getUnderline(), font.getCharSet());
 	}
-	
+
 	public POICellStyleKey getCellStyleKey(Workbook wb,String fontName,short fontHeightInPoints) {
 		return getCellStyleKey(wb, fontName, Font.COLOR_NORMAL, fontHeightInPoints);
 	}
-	
+
 	public POICellStyleKey getCellStyleKey(Workbook wb,String fontName, short color, short fontHeightInPoints) {
 		return getCellStyleKey(wb, fontName, Font.BOLDWEIGHT_NORMAL, color, fontHeightInPoints);
 	}
-	
+
 	public POICellStyleKey getCellStyleKey(Workbook wb,String fontName, short boldweight, short color, short fontHeightInPoints) {
 		return getCellStyleKey(wb, fontName, boldweight, color, fontHeightInPoints , false, false, Font.SS_NONE, Font.U_NONE, Font.DEFAULT_CHARSET);
 	}
-	
+
 	public POICellStyleKey getCellStyleKey(Workbook wb,String fontName,short boldweight, short color, short fontHeightInPoints,
 			boolean italic, boolean strikeout, short typeOffset, byte underline, int charSet) {
 		if (wb != null && StringUtils.isNotEmpty(fontName)) {
@@ -100,25 +99,25 @@ public class PDFTemplateCacheManager {
 		}
 		return null;
 	}
-	
+
 	public CellStyle getCellStyle(Workbook wb,Font font) {
-		return getCellStyle(wb, font.getFontName(), font.getBoldweight(), font.getColor(), 
-				font.getFontHeightInPoints() , font.getItalic(), font.getStrikeout(), 
+		return getCellStyle(wb, font.getFontName(), font.getBoldweight(), font.getColor(),
+				font.getFontHeightInPoints() , font.getItalic(), font.getStrikeout(),
 				font.getTypeOffset(), font.getUnderline(), font.getCharSet());
 	}
-	
+
 	public CellStyle getCellStyle(Workbook wb,String fontName,short fontHeightInPoints) {
 		return getCellStyle(wb,fontName, Font.COLOR_NORMAL, fontHeightInPoints);
 	}
-	
+
 	public CellStyle getCellStyle(Workbook wb,String fontName, short color, short fontHeightInPoints) {
 		return getCellStyle(wb,fontName, Font.BOLDWEIGHT_NORMAL, color, fontHeightInPoints);
 	}
-	
+
 	public CellStyle getCellStyle(Workbook wb,String fontName, short boldweight, short color, short fontHeightInPoints) {
 		return getCellStyle(wb,fontName, boldweight, color, fontHeightInPoints , false, false, Font.SS_NONE, Font.U_NONE, Font.DEFAULT_CHARSET);
 	}
-	
+
 	public CellStyle getCellStyle(Workbook wb,String fontName,short boldweight, short color, short fontHeightInPoints,
 			boolean italic, boolean strikeout, short typeOffset, byte underline, int charSet){
 		//获取当前Workbook对象的样式缓存
@@ -140,7 +139,7 @@ public class PDFTemplateCacheManager {
 		COMPLIED_CELLSTYLE.put(wb, styleMap);
 		return ret;
 	}
-	
+
 	public void destroy(Workbook wb) {
 		if(wb != null){
 			//清除Workbook对应的字体缓存
@@ -148,6 +147,6 @@ public class PDFTemplateCacheManager {
 			COMPLIED_CELLSTYLE.remove(wb);
 		}
 	}*/
-	
+
 }
 

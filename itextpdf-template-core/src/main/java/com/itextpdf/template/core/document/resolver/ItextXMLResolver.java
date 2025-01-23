@@ -1,12 +1,12 @@
-package com.jeefw.fastpdf.core.document.resolver;
+package com.itextpdf.template.core.document.resolver;
 
 import java.io.IOException;
 import java.util.Map;
 
 import org.jdom2.JDOMException;
 
-import com.jeefw.fastpdf.core.context.ItextContext;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.context.ItextContext;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 import com.jeefw.fastxml.jdom.XMLElement;
 import com.jeefw.fastxml.jdom.xhtml.sax.XMLElementResolver;
 /**

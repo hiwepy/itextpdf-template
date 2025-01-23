@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.resolver;
+package com.itextpdf.template.core.document.resolver;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,8 +7,8 @@ import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Font;
 import com.itextpdf.text.FontFactory;
 import com.itextpdf.text.pdf.BaseFont;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
-import com.jeefw.fastpdf.core.utils.DimensionUtils;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.utils.DimensionUtils;
 import com.jeefw.fastxml.jdom.xhtml.AbstractFontResolver;
 
 /**

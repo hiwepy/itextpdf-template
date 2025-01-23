@@ -1,14 +1,14 @@
 
  /**
  * @title: ZipOutput.java
- * @package com.jeefw.fastpdf.core.document.helper
+ * @package com.itextpdf.template.core.document.helper
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
  * @date : 2014-1-14
  * @time : 下午2:04:04 
  */
 
-package com.jeefw.fastpdf.core.document.helper;
+package com.itextpdf.template.core.document.helper;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -17,10 +17,10 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 import com.itextpdf.text.pdf.PdfWriter;
-import com.jeefw.fastpdf.core.context.ItextContext;
+import com.itextpdf.template.core.context.ItextContext;
 
  /**
- * @package com.jeefw.fastpdf.core.document.helper
+ * @package com.itextpdf.template.core.document.helper
  * @className: ZipOutput
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

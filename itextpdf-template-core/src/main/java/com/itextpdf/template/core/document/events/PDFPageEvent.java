@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.events;
+package com.itextpdf.template.core.document.events;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.pdf.BaseFont;
@@ -6,10 +6,10 @@ import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfPageEventHelper;
 import com.itextpdf.text.pdf.PdfTransition;
 import com.itextpdf.text.pdf.PdfWriter;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 
  /**
- * @package com.jeefw.fastpdf.core.document.events
+ * @package com.itextpdf.template.core.document.events
  * @className: PDFPageEvent
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

@@ -1,11 +1,11 @@
-package com.jeefw.fastpdf.core.document.draw;
+package com.itextpdf.template.core.document.draw;
 
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Element;
 import com.itextpdf.text.pdf.draw.LineSeparator;
 
  /**
- * @package com.jeefw.fastpdf.core.document.draw
+ * @package com.itextpdf.template.core.document.draw
  * @className: UnderLineSeparator
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

@@ -1,10 +1,10 @@
-package com.jeefw.fastpdf.core.document.resolver;
+package com.itextpdf.template.core.document.resolver;
 
 import java.awt.Color;
 import java.io.IOException;
 import java.util.Map;
 
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 import com.jeefw.fastxml.core.utils.XMLColorUtils;
 import com.jeefw.fastxml.jdom.xhtml.ColorResolver;
 

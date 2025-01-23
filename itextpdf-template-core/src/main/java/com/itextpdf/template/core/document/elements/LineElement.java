@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.elements;
+package com.itextpdf.template.core.document.elements;
 
 import com.itextpdf.text.pdf.PdfPTable;
 

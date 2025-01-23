@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.helper;
+package com.itextpdf.template.core.document.helper;
 
 import java.util.Iterator;
 import java.util.List;
@@ -9,10 +9,10 @@ import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPRow;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.jeefw.fastkit.beanutils.JavaBeanUtils;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
 /**
  * 
- * @package com.jeefw.fastpdf.core.document.helper
+ * @package com.itextpdf.template.core.document.helper
  * @className: PDFTableHelper
  * @description: table元素节点处理助手，采用多线程方式
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

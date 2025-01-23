@@ -1,14 +1,14 @@
-package com.jeefw.fastpdf.core.document.style;
+package com.itextpdf.template.core.document.style;
 
 import java.util.Map;
 
 import com.jeefw.fastkit.lang3.BlankUtils;
-import com.jeefw.fastpdf.core.context.ItextContext;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
-import com.jeefw.fastpdf.core.document.helper.DimensionHelper;
-import com.jeefw.fastpdf.core.document.resolver.ItextAlignmentResolver;
-import com.jeefw.fastpdf.core.document.resolver.ItextBaseColorResolver;
-import com.jeefw.fastpdf.core.document.resolver.ItextFontResolver;
+import com.itextpdf.template.core.context.ItextContext;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.helper.DimensionHelper;
+import com.itextpdf.template.core.document.resolver.ItextAlignmentResolver;
+import com.itextpdf.template.core.document.resolver.ItextBaseColorResolver;
+import com.itextpdf.template.core.document.resolver.ItextFontResolver;
 import com.jeefw.fastxml.jdom.xhtml.StyleTransformer;
 
 public class PDFStyleTransformer implements StyleTransformer<ItextXMLElement> {

@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.helper;
+package com.itextpdf.template.core.document.helper;
 
 import com.itextpdf.text.Element;
 import com.itextpdf.text.Phrase;
@@ -8,7 +8,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 
  /**
- * @package com.jeefw.fastpdf.core.document.helper
+ * @package com.itextpdf.template.core.document.helper
  * @className: RectangleHelper
  * @description: TODO
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

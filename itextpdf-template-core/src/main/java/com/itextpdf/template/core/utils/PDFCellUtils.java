@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.utils;
+package com.itextpdf.template.core.utils;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;

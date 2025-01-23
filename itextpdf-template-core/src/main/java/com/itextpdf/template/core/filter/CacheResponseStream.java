@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.filter;
+package com.itextpdf.template.core.filter;
 
 import java.io.IOException;
 import java.io.OutputStream;

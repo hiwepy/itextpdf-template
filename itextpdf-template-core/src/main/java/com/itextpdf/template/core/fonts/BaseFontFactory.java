@@ -16,7 +16,7 @@
 /**
  * 
  */
-package com.jeefw.fastpdf.core.fonts;
+package com.itextpdf.template.core.fonts;
 
 public class BaseFontFactory {
 	

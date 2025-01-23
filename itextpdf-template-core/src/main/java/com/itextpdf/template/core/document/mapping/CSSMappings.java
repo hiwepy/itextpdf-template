@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.mapping;
+package com.itextpdf.template.core.document.mapping;
   
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.jeefw.fastpdf.core.document.helper;
+package com.itextpdf.template.core.document.helper;
 
 import java.io.OutputStream;
 import java.util.HashMap;
@@ -10,12 +10,12 @@ import com.itextpdf.text.pdf.PdfName;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.jeefw.fastkit.format.utils.PatternFormatUtils;
 import com.jeefw.fastkit.lang3.BlankUtils;
-import com.jeefw.fastpdf.core.context.ItextContext;
-import com.jeefw.fastpdf.core.document.elements.ItextXMLElement;
-import com.jeefw.fastpdf.core.document.events.PDFPageEvent;
+import com.itextpdf.template.core.context.ItextContext;
+import com.itextpdf.template.core.document.elements.ItextXMLElement;
+import com.itextpdf.template.core.document.events.PDFPageEvent;
 /**
   * 
-  * @package com.jeefw.fastpdf.core.document.helper
+  * @package com.itextpdf.template.core.document.helper
   * @className: PDFWriterHelper
   * @description: TODO
   * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>

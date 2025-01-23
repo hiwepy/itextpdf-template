@@ -60,11 +60,6 @@
 			</dependency>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
-				<artifactId>itextpdf-template-webit</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>${project.groupId}</groupId>
 				<artifactId>itextpdf-template-xhtml</artifactId>
 				<version>${project.version}</version>
 			</dependency>
